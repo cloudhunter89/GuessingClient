@@ -1,0 +1,492 @@
+2016-09-10 19:48:36,540 [1] DEBUG GuessingClient.ClientCommander - Setting up to send messages to 127.0.0.1:12001
+2016-09-10 19:48:36,555 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:38,396 [1] DEBUG GuessingClient.ClientCommander - Sending message of type GuessingClient.Messages.NewGameMessage to server at 127.0.0.1:12001
+2016-09-10 19:48:38,397 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: A00938472
+2016-09-10 19:48:38,399 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 20 for string of length 9 (Two additional bytes for Int16 length)
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-12-00-41-00-30-00-30-00-39-00-33-00-38-00-34-00-37-00-32
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: Jonathon
+2016-09-10 19:48:38,399 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 18 for string of length 8 (Two additional bytes for Int16 length)
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-10-00-4A-00-6F-00-6E-00-61-00-74-00-68-00-6F-00-6E
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: Koyle
+2016-09-10 19:48:38,399 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 12 for string of length 5 (Two additional bytes for Int16 length)
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-0A-00-4B-00-6F-00-79-00-6C-00-65
+2016-09-10 19:48:38,399 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 52 bytes to 127.0.0.1:12001
+2016-09-10 19:48:38,403 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-02 to Host Order value: 2
+2016-09-10 19:48:38,404 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type GameDef
+2016-09-10 19:48:38,404 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-02 to Host Order value: 2
+2016-09-10 19:48:38,404 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.GameDef
+2016-09-10 19:48:38,404 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:38,405 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 4, buffer length: 76
+2016-09-10 19:48:38,405 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:38,405 [4] INFO GuessingClient.Messages.Message - Conversion result: ___________
+2016-09-10 19:48:38,405 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 28, buffer length: 76
+2016-09-10 19:48:38,405 [4] DEBUG GuessingClient.Messages.Message - Converting 46 bytes to a string
+2016-09-10 19:48:38,405 [4] INFO GuessingClient.Messages.Message - Conversion result: dancing mania or frenzy
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-02 to Host Order value: 2
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type GameDef
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-02 to Host Order value: 2
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.GameDef
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 4, buffer length: 76
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:38,407 [4] INFO GuessingClient.Messages.Message - Conversion result: ___________
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 28, buffer length: 76
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Messages.Message - Converting 46 bytes to a string
+2016-09-10 19:48:38,407 [4] INFO GuessingClient.Messages.Message - Conversion result: dancing mania or frenzy
+2016-09-10 19:48:38,407 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:38,479 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:38,479 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:38,479 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:38,479 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:38,479 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:38,480 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:38,480 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:38,480 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:38,979 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:39,480 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:39,981 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:40,483 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:40,893 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:40,893 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:40,893 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:40,893 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:40,893 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:40,902 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:40,902 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:40,903 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:40,903 [4] INFO GuessingClient.Messages.Message - Conversion result: _______a___
+2016-09-10 19:48:40,905 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:40,984 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:41,193 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:41,193 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:41,193 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:41,193 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:41,193 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:41,196 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:41,196 [4] INFO GuessingClient.Messages.Message - Conversion result: ______ma___
+2016-09-10 19:48:41,198 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:41,485 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:41,544 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:41,544 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:41,544 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:41,544 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:41,544 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:41,549 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:41,549 [4] INFO GuessingClient.Messages.Message - Conversion result: _h____ma___
+2016-09-10 19:48:41,551 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:41,927 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:41,927 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:41,927 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:41,927 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:41,927 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:41,928 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:41,928 [4] INFO GuessingClient.Messages.Message - Conversion result: _h____man__
+2016-09-10 19:48:41,930 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:41,986 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:42,309 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:42,309 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:42,309 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:42,309 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:42,309 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:42,310 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:42,310 [4] INFO GuessingClient.Messages.Message - Conversion result: _h__e_man__
+2016-09-10 19:48:42,312 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:42,486 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:42,644 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:42,644 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:42,644 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:42,644 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:42,644 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:42,649 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:42,649 [4] INFO GuessingClient.Messages.Message - Conversion result: _h__e_mani_
+2016-09-10 19:48:42,651 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:42,985 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:42,985 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:42,985 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:42,985 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:42,985 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:42,987 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:42,988 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:42,988 [4] INFO GuessingClient.Messages.Message - Conversion result: _h__eomani_
+2016-09-10 19:48:42,989 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:43,434 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:43,434 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:43,434 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:43,434 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:43,434 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:43,438 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:43,438 [4] INFO GuessingClient.Messages.Message - Conversion result: ch__eomani_
+2016-09-10 19:48:43,440 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:43,489 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:43,989 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:44,332 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:44,332 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:44,332 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:44,332 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:44,332 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:44,333 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:44,333 [4] INFO GuessingClient.Messages.Message - Conversion result: cho_eomani_
+2016-09-10 19:48:44,335 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:44,490 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:44,869 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:44,869 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:44,869 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:44,869 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:44,869 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:44,873 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:44,874 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:44,874 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:44,874 [4] INFO GuessingClient.Messages.Message - Conversion result: choreomani_
+2016-09-10 19:48:44,875 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:44,991 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:45,491 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:45,907 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:45,907 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: j
+2016-09-10 19:48:45,907 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 4 for string of length 1 (Two additional bytes for Int16 length)
+2016-09-10 19:48:45,907 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-02-00-6A
+2016-09-10 19:48:45,907 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 8 bytes to 127.0.0.1:12001
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 31
+2016-09-10 19:48:45,916 [4] DEBUG GuessingClient.Messages.Message - Converting 22 bytes to a string
+2016-09-10 19:48:45,916 [4] INFO GuessingClient.Messages.Message - Conversion result: choreomania
+2016-09-10 19:48:45,918 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:45,992 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:46,492 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:46,993 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:47,493 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:47,994 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:48,495 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:48,996 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:49,496 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:49,997 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:50,498 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:50,998 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:51,499 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:52,000 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:52,500 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:53,002 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type HeartBeat
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-0A to Host Order value: 10
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Heartbeat
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:48:53,502 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:53,972 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:48:53,972 [1] DEBUG GuessingClient.Messages.Message - Begin encodeString param: choreomania
+2016-09-10 19:48:53,972 [1] INFO GuessingClient.Messages.Message - Created a byte array of length 24 for string of length 11 (Two additional bytes for Int16 length)
+2016-09-10 19:48:53,972 [1] DEBUG GuessingClient.Messages.Message - Resulting bytes 00-16-00-63-00-68-00-6F-00-72-00-65-00-6F-00-6D-00-61-00-6E-00-69-00-61
+2016-09-10 19:48:53,972 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 28 bytes to 127.0.0.1:12001
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Answer
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-04 to Host Order value: 4
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Beginning Decode of MessageType.Answer
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-00 to Host Order value: 0
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - Begin decodeString() at buffer offset: 7, buffer length: 9
+2016-09-10 19:48:53,982 [4] DEBUG GuessingClient.Messages.Message - String length is 0 returning string.Empty
+2016-09-10 19:48:53,984 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:48:58,985 [4] DEBUG GuessingClient.Network.UdpCommunicator - Caught Socket Exception
+System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at GuessingClient.Network.UdpCommunicator.read() in C:\Users\Jonathon\school\CS\distributed\GuessingClient\GuessingClient\Network\UdpCommuncator.cs:line 30
+2016-09-10 19:48:58,990 [4] DEBUG GuessingClient.Messages.MessageFactory - Invalid request: InvalidMessageType returning null
+2016-09-10 19:48:58,990 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:49:03,990 [4] DEBUG GuessingClient.Network.UdpCommunicator - Caught Socket Exception
+System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at GuessingClient.Network.UdpCommunicator.read() in C:\Users\Jonathon\school\CS\distributed\GuessingClient\GuessingClient\Network\UdpCommuncator.cs:line 30
+2016-09-10 19:49:03,990 [4] DEBUG GuessingClient.Messages.MessageFactory - Invalid request: InvalidMessageType returning null
+2016-09-10 19:49:03,990 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:49:05,293 [1] DEBUG GuessingClient.ClientCommander - Sending message of type GuessingClient.Messages.ExitMessage to server at 127.0.0.1:12001
+2016-09-10 19:49:05,294 [1] DEBUG GuessingClient.Messages.Message - Converted 21 to Network Order byte[] System.Byte[]
+2016-09-10 19:49:05,294 [1] DEBUG GuessingClient.Network.UdpCommunicator - Sending 4 bytes to 127.0.0.1:12001
+2016-09-10 19:49:05,303 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-08 to Host Order value: 8
+2016-09-10 19:49:05,303 [4] DEBUG GuessingClient.Messages.MessageFactory - Created new message with type Ack
+2016-09-10 19:49:05,303 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-08 to Host Order value: 8
+2016-09-10 19:49:05,304 [4] DEBUG GuessingClient.Messages.Message - Converted Network Order byte[]: 00-15 to Host Order value: 21
+2016-09-10 19:49:05,304 [4] DEBUG GuessingClient.Network.UdpCommunicator - Blocking for 5000 to receive UDP packets
+2016-09-10 19:49:10,304 [4] DEBUG GuessingClient.Network.UdpCommunicator - Caught Socket Exception
+System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at GuessingClient.Network.UdpCommunicator.read() in C:\Users\Jonathon\school\CS\distributed\GuessingClient\GuessingClient\Network\UdpCommuncator.cs:line 30
+2016-09-10 19:49:10,304 [4] DEBUG GuessingClient.Messages.MessageFactory - Invalid request: InvalidMessageType returning null
